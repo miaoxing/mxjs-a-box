@@ -2,9 +2,33 @@
   "name": "@mxjs/a-box",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "twinh",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^10"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^9.1.0",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev"
   }
 }
