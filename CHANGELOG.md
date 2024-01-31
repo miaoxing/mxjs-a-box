@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-a-box/compare/v1.0.0...v1.1.0) (2024-01-31)
+
+
+### Features
+
+* **a-box:** 增加 `Box`，`Image` 组件 ([27ef520](https://github.com/miaoxing/mxjs-a-box/commit/27ef5203c59226f73330ff7acc2afa01d04639b3))
+
 # 1.0.0 (2024-01-14)
 
 
